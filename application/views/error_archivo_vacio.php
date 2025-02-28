@@ -9,7 +9,7 @@
 
     
     <!-- Botón para volver al índice -->
-    <form action="<?php echo site_url('ControladorCSV/index'); ?>" method="post">
+    <form action="<?php echo site_url('DatosController/index'); ?>" method="post">
         <button type="submit">Volver al inicio</button>
     </form>
 </body>

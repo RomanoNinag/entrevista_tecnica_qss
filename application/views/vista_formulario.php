@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Prueba técnica Backend</title>
+    <title>Prueba técnica Backend QSS</title>
     <script>
         // Actualizar nombre de ciudad al seleccionar en el select para guardarlo en la BD
         function ActualizarNombreCiudad() {
@@ -33,9 +33,10 @@
                 </option>
             <?php endforeach; ?>
         </select>
-        
+            </br>
         <!-- Select que muestra usuarios -->
         <select name="usuarioId" required>
+            <!-- Los usuarios son insertados manualmente a la bd -->
             <option value="">Seleccione un usuario</option>
             <?php foreach ($listaUsuarios as $usuario): ?>
                 <option value="<?php echo $usuario->IdUsuario; ?>">

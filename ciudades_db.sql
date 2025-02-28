@@ -1,3 +1,4 @@
+CREATE DATABASE pruebas;
 CREATE TABLE ciudades_usuarios (
 	IdUsuario int(100),
 	IdCiudad int(100)
